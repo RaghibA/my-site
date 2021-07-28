@@ -80,6 +80,7 @@ img {
   color: var(--dark-color);
   outline: var(--primary-color) 2px solid;
   padding: 4px;
+  margin-right: 1rem;
 }
 
 .btn:hover {
@@ -93,6 +94,7 @@ img {
   color: var(--light-color);
   outline: var(--light-color) 2px solid;
   padding: 4px;
+  margin-right: 1rem;
 }
 
 .btn-dark:hover {
@@ -100,6 +102,19 @@ img {
   color: var(--primary-color);
 }
 
+.btn-accent {
+  text-decoration: none;
+  background: var(--primary-color);
+  color: var(--light-color);
+  outline: var(--primary-color) 2px solid;
+  padding: 4px;
+  margin-right: 1rem;
+}
+
+.btn-accent:hover {
+  background: var(--light-color);
+  color: var(--primary-color);
+}
 .down-1 {
   padding-top: 20px;
   opacity: .9;
@@ -163,6 +178,7 @@ img {
 .angular {background: rgb(159, 27, 27);}
 .flask {background: rgb(188, 101, 205);}
 .rest {background: rgb(215, 120, 41);}
+.matplotlib {background: rgb(239, 236, 77);}
 
 /* Nav */
 .nav {
