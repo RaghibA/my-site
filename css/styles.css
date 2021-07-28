@@ -168,6 +168,7 @@ img {
   height: 50px;
   padding: 0 5%;
   z-index: 2;
+  box-shadow: 0 0 16px 0 rgb(35, 35, 35);
 }
 
 .nav-name {
@@ -362,7 +363,7 @@ img {
 
 /* Contact */
 #contact {
-  background: var(--light-color);
+  background: var(--primary-color);
 }
 
 #contact .contact-container {
@@ -387,4 +388,11 @@ img {
   align-items: center;
   text-align: center;
   gap: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  padding: 2rem 2rem;
+  text-align: center;
+  box-shadow: 0 0 6px 0 rgb(35, 35, 35);
 }

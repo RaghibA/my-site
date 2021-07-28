@@ -17,16 +17,16 @@
   <header class="splash">
     <div class="nav">
       <div class="name">
-        <a href="#top" class="nav-name">
+        <a href="https://github.com/RaghibA" target="_blank" class="nav-name">
           <span class="text-secondary">~/Raghib</span>
           <i class="blink-icon far fa-window-minimize"></i>
         </a>
       </div>
       <div class="links">
-        <a href="#top" class="home nav-menu">Home</a>
-        <a href="#about" class="about nav-menu">About</a>
-        <a href="#projects" class="projects nav-menu">Projects</a>
-        <a href="#contact" class="contact nav-menu">Contact</a>
+        <a onclick="makeCurrent('1')" id="1" href="#top" class="home nav-menu">Home</a>
+        <a onclick="makeCurrent('2')" id="2" href="#about" class="about nav-menu">About</a>
+        <a onclick="makeCurrent('3')" id="3" href="#projects" class="projects nav-menu">Projects</a>
+        <a onclick="makeCurrent('4')" id="4" href="#contact" class="contact nav-menu">Contact</a>
       </div>
     </div>
     <div class="content">
@@ -80,8 +80,10 @@
         <div class="description">
           <div class="attr-dark python text">Python3</div>
           <h1 class="text-light">NBA Stats Web-Scraper</h1>
-          <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates odio amet rerum, mollitia possimus ea voluptate!</p>
-          <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="text-light">Python3 Web-Scraper developed using the beautiful soup library.</p>
+          <p class="text-light">Takes career stats of two NBA players from <span>
+            <a href="https://www.basketball-reference.com" class="text-secondary">basketball-reference</a>
+          </span> and compares them graphically using matplotlib.</p>
           <a href="https://github.com/RaghibA/basketball-reference-Web-Scraper" target="_blank" class="btn-dark">Github
             <span><i class="fab fa-github"></i></span>
           </a>
@@ -129,20 +131,60 @@
 
   <!-- Contact -->
   <section id="contact">
-    <div class="contact-container bg-light">
+    <div class="contact-container bg-dark">
       <div class="heading">
-        <h1 class="text-primary">Contact</h1>
+        <h1 class="text-secondary">Contact</h1>
       </div>
-      <div class="contact-box text-primary">
+      <div class="contact-box text-secondary">
         <i class="fas fa-envelope-square fa-4x"></i>
         <p>raghibaftab23@gmail.com</p>
       </div>
-      <div class="contact-box text-primary">
+      <div class="contact-box text-secondary">
         <i class="fab fa-linkedin fa-4x"></i>
         <p>linkedin.com/in/raghibaftab</p>
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer text-secondary">Raghib Aftab | 2021</div>
+  </footer>
+
+  <!-- Scripts/Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
+
+  <script>
+    // smooth scrolling 
+    $('.navbar .links, a').on('click', function(e) {
+      if(this.hash !== '') {
+        e.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top - 100,
+          }, 400
+        );
+      }
+    })
+  </script>
+
+  <!-- <script>
+    // Highlight current section
+    function makeCurrent(id) {
+      // Reset other btns
+      document.getElementById('1').classList.remove('current')
+      document.getElementById('2').classList.remove('current')
+      document.getElementById('3').classList.remove('current')
+      document.getElementById('4').classList.remove('current')
+
+      document.getElementById(id).classList.add('current')
+    }
+  </script> -->
 
 </body>
 
