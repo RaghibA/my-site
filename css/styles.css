@@ -136,6 +136,10 @@ img {
   width: fit-content;
 }
 
+.attr:hover {
+  opacity: .8;
+}
+
 .attr-dark {
   display: inline-block;
   color: var(--primary-color);
@@ -145,6 +149,10 @@ img {
   border-radius: 15px;
   margin-bottom: .5rem;
   width: fit-content;
+}
+
+.attr-dark:hover {
+  opacity: .8;
 }
 
 .react { background: rgb(44, 122, 200); }
@@ -168,7 +176,7 @@ img {
   height: 50px;
   padding: 0 5%;
   z-index: 2;
-  box-shadow: 0 0 16px 0 rgb(35, 35, 35);
+  box-shadow: 0 0 8px 0 rgb(35, 35, 35);
 }
 
 .nav-name {
@@ -285,6 +293,17 @@ img {
   text-align: center;
 }
 
+#projects .project-container .lower {
+  grid-column: 1/ span 3;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#projects .project-container .git-btn {
+  grid-column: 2;
+  text-align: center;
+}
+
 #projects .project-container .description {
   display: grid;
   gap: .5rem;
@@ -324,6 +343,15 @@ img {
   height: 300px;
 }
 
+.card2 .description .c2desc a {
+  text-decoration: none;
+}
+
+.card2 .description .c2desc a:hover {
+  text-decoration: none;
+  color: var(--light2-color)
+}
+
 .card2:hover {
   box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
 }
@@ -333,7 +361,7 @@ img {
   grid-template-rows: 1fr;
   gap: 1rem;
   align-items: center;
-  background: var(--light2-color);
+  background: var(--accent-color);
   border-radius: 5px;
   padding: 1.5rem 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -359,6 +387,10 @@ img {
 
 .card4:hover {
   box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+}
+
+.git-link .git-header {
+  grid-column: 1/ span 3;
 }
 
 /* Contact */
@@ -394,5 +426,5 @@ img {
 .footer {
   padding: 2rem 2rem;
   text-align: center;
-  box-shadow: 0 0 6px 0 rgb(35, 35, 35);
+  box-shadow: 0 0 4px 0 rgb(35, 35, 35);
 }
