@@ -1,0 +1,178 @@
+:root {
+  --mobile-width: 375px;
+}
+
+/* Nav */
+.nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding: 0 5%;
+  z-index: 2;
+  box-shadow: 0 0 8px 0 rgb(35, 35, 35);
+}
+
+.nav-name {
+  text-decoration: none;
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
+
+.links {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.links a {
+  text-align: center;
+  color: var(--light-color);
+  font-size: 12px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 0px;
+}
+
+/* About */
+#about .about-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  width: var(--mobile-width);
+  margin: auto;
+}
+
+#about .about-container .heading {
+  text-align: center;
+  grid-column: 1;
+}
+
+/* Cards */
+#projects .project-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7,auto);
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  width: var(--mobile-width);
+}
+
+#projects .project-container .heading {
+  grid-row: 1;
+  text-align: center;
+}
+
+#projects .project-container .lower {
+  grid-row: 6;
+  grid-column: 1;
+  text-align: center;
+}
+
+#projects .project-container .git-btn {
+  grid-row: 7;
+  grid-column: 1;
+  text-align: center;
+}
+
+#projects .project-container .description {
+  display: grid;
+  gap: .5rem;
+}
+
+#projects .project-container .description> a {
+  width: fit-content;
+}
+
+.card1 {
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 600px;
+  width: 350px;
+}
+
+.card-links {
+  margin-top: 2rem;
+}
+
+.card2 {
+  grid-row: 3;
+  height: 350px;
+  width: 350px;
+}
+
+.card2 .description .c2desc a {
+  text-decoration: none;
+}
+
+.card2 .description .c2desc a:hover {
+  text-decoration: none;
+  color: var(--light2-color)
+}
+
+.card3 {
+  grid-row: 4;
+  height: 350px;
+  width: 350px;
+}
+
+.card4 {
+  grid-row: 5;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 600px;
+  width: 350px;
+}
+
+.git-link .git-header {
+  grid-row: 6;
+  grid-column: 1;
+}
+
+/* Contact */
+#contact {
+  background: var(--primary-color);
+}
+
+#contact .contact-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: var(--mobile-width);
+}
+
+#contact .contact-container .heading{
+  grid-row: 1;
+  text-align: center;
+}
+
+#contact .contact-container .contact-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contact .contact-container .email {
+  grid-row: 2;
+}
+
+#contact .contact-container .linkedin {
+  grid-row: 3;
+}
