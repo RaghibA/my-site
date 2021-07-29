@@ -145,7 +145,7 @@ img {
 .attr {
   display: inline-block;
   color: var(--light-color);
-  font-size: .45rem;
+  font-size: .55rem;
   text-transform: uppercase;
   padding: .4rem .6rem;
   border-radius: 15px;
@@ -160,7 +160,7 @@ img {
 .attr-dark {
   display: inline-block;
   color: var(--primary-color);
-  font-size: .45rem;
+  font-size: .55rem;
   text-transform: uppercase;
   padding: .4rem .6rem;
   border-radius: 15px;
@@ -192,7 +192,7 @@ img {
   top: 0;
   width: 100%;
   height: 50px;
-  padding: 0 5%;
+  padding: 0 15%;
   z-index: 2;
   box-shadow: 0 0 8px 0 rgb(35, 35, 35);
 }
