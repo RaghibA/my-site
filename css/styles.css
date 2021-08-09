@@ -2,7 +2,7 @@
 
 /* Variables */
 :root {
-  --primary-color: #262b36;
+  --primary-color: #333945;
   --secondary-color: #D1BEB0;
   --light-color: #efefef;
   --light2-color: #ececec;
@@ -429,7 +429,7 @@ img {
   grid-template-rows: 1fr;
   gap: 1rem;
   align-items: center;
-  background: var(--accent-color);
+  background: var(--primary-color);
   border-radius: 5px;
   padding: 1.5rem 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
