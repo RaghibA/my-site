@@ -9,10 +9,11 @@
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-content: center;
+  text-align: center;
   background-color: var(--primary-color);
   position: fixed;
   top: 0;
-  width: 100%;
+  width: var(--mobile-width);
   height: 100px;
   padding: 0 50%;
   z-index: 2;
@@ -61,12 +62,12 @@
 /* Cards */
 #projects .project-container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(7,auto);
-  gap: 1.25rem;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  align-self: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7,auto);
+  gap: 0;
   width: var(--mobile-width);
 }
 
@@ -97,12 +98,18 @@
 }
 
 .card1 {
+  justify-self: center;
   grid-row: 2;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   height: 600px;
-  width: 350px;
+  width: 100%;
+  border-radius: 0;
+}
+
+.proj-1{
+  text-align: center;
 }
 
 .card-links {
@@ -110,9 +117,15 @@
 }
 
 .card2 {
+  justify-self: center;
   grid-row: 3;
   height: 350px;
-  width: 350px;
+  width: 100%;
+  border-radius: 0;
+}
+
+.attr-sm {
+  text-align: center;
 }
 
 .card2 .description .c2desc a {
@@ -125,24 +138,33 @@
 }
 
 .card3 {
+  justify-self: center;
   grid-row: 4;
   height: 350px;
-  width: 350px;
+  width: 100%;
+  border-radius: 0;
 }
 
 .card4 {
+  justify-self: center;
   grid-row: 5;
   grid-column: 1;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   height: 600px;
-  width: 350px;
+  width: 100%;
+  border-radius: 0;
 }
 
 .git-link .git-header {
   grid-row: 6;
   grid-column: 1;
+}
+
+.git-btn {
+  width: 120px;
+  justify-self: center;
 }
 
 /* Contact */
@@ -151,15 +173,20 @@
 }
 
 #contact .contact-container {
+  gap: 0;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: var(--mobile-width);
 }
 
 #contact .contact-container .heading{
   grid-row: 1;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 #contact .contact-container .contact-box {
@@ -167,6 +194,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 #contact .contact-container .email {

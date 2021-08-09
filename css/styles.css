@@ -310,6 +310,7 @@ img {
 #projects .project-container .heading {
   grid-column: 1/ span 3;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 #projects .project-container .lower {
