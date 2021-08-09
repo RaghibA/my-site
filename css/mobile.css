@@ -45,18 +45,24 @@
 #about .about-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 1.25rem;
+  grid-template-rows: 1fr 2fr 3fr;
+  gap: 0;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
   width: var(--mobile-width);
   margin: auto;
+}
+
+.about-body-txt {
+  width: var(--mobile-width);
+  padding: 1rem 0;
 }
 
 #about .about-container .heading {
   text-align: center;
   grid-column: 1;
+  padding: 0 0;
 }
 
 /* Cards */
@@ -165,6 +171,10 @@
 .git-btn {
   width: 120px;
   justify-self: center;
+}
+
+.proj-heading-txt {
+  text-align: center;
 }
 
 /* Contact */

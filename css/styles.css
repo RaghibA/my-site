@@ -277,18 +277,62 @@ img {
 
 #about .about-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.25rem;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   padding: 2rem 0;
   width: var(--max-width);
   margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #about .about-container .heading {
-  grid-column: 2/ span 2;
-  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.about-body {
+  padding: 1rem 0;
+}
+
+.about-body-txt {
+  width: 500px;
+  padding: 1rem 0;
+}
+
+.about-skills {
+  display: grid;
+  color: var(--light2-color);
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 3fr;
+  border-radius: 5px;
+}
+
+.about-skills p {
+  font-size: 12px;
+}
+
+.about-skills-heading {
+  grid-column: 1 / span 3;
+  padding: 0 0;
+  align-self: center;
+}
+
+.abt-sub-head {
+  padding-bottom: 1rem;
+}
+
+.abt-sub-head::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%; 
+  padding-top: 2px; 
+  border-bottom: 1px solid var(--light-color); 
+}
+
+.skill-icon {
+  padding: 6px 0;
 }
 
 /* Projects */
