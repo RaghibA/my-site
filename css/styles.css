@@ -146,6 +146,15 @@ img {
   font-size: 1.5rem;
 }
 
+.heading::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 80px; 
+  padding-top: 2px; 
+  border-bottom: 2px solid var(--primary-color); 
+}
+
 .attr {
   display: inline-block;
   color: var(--light-color);
