@@ -177,10 +177,6 @@
 }
 
 /* Contact */
-#contact {
-  background: var(--primary-color);
-}
-
 #contact .contact-container {
   gap: 0;
   display: grid;
