@@ -208,7 +208,7 @@ img {
 }
 
 .links a {
-  color: var(--light-color);
+  color: var(--primary-color);
   padding: 10px 20px;
   text-decoration: none;
   border-radius:25px;
@@ -463,7 +463,7 @@ img {
 
 /* Contact */
 #contact {
-  background: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 #contact .contact-container {
@@ -494,5 +494,5 @@ img {
 .footer {
   padding: 2rem 2rem;
   text-align: center;
-  box-shadow: 0 0 4px 0 rgb(35, 35, 35);
+  box-shadow: 0 0 4px 0 rgba(35, 35, 35, .2);
 }
