@@ -10,14 +10,13 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: var(--primary-color);
+  background-color: var(--accent2-color);
   position: fixed;
   top: 0;
   width: var(--mobile-width);
   height: 100px;
   padding: 0 50%;
   z-index: 2;
-  box-shadow: 0 0 8px 0 rgb(35, 35, 35);
 }
 
 .nav-name {
