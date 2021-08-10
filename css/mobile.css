@@ -44,7 +44,7 @@
 #about .about-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr 3fr;
+  grid-template-rows: repeat(3,auto);
   gap: 0;
   justify-content: center;
   align-items: center;
@@ -111,6 +111,7 @@
   height: 600px;
   width: 100%;
   border-radius: 0;
+  margin-bottom: 2rem;
 }
 
 .proj-1{
@@ -127,6 +128,7 @@
   height: 350px;
   width: 100%;
   border-radius: 0;
+  margin-bottom: 2rem;
 }
 
 .attr-sm {
@@ -148,6 +150,7 @@
   height: 350px;
   width: 100%;
   border-radius: 0;
+  margin-bottom: 2rem;
 }
 
 .card4 {
@@ -160,6 +163,7 @@
   height: 600px;
   width: 100%;
   border-radius: 0;
+  margin-bottom: 2rem;
 }
 
 .git-link .git-header {
