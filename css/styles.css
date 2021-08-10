@@ -249,7 +249,7 @@ img {
 /* Splash Page */
 .splash {
   background-color: var(--accent2-color);
-  height: 70vh;
+  height: 75vh;
   position: relative;
   color: #fff;
   width: 100%;
@@ -296,7 +296,7 @@ img {
 }
 
 #about .about-container .heading {
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .about-body {
