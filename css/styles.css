@@ -422,11 +422,12 @@ img {
 
 .card2 .description .c2desc a {
   text-decoration: none;
+  color: var(--accent2-color);
 }
 
 .card2 .description .c2desc a:hover {
   text-decoration: none;
-  color: var(--light2-color)
+  color: var(--secondary-color);
 }
 
 .card2:hover {
