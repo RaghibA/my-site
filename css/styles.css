@@ -27,7 +27,7 @@ body {
 
 img {
   width: 100%; /* Make images fill their container and no bigger */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
   max-width: 300px;
 }
@@ -394,14 +394,9 @@ img {
   align-items: center;
   grid-column: 1 / span 2;
   background: var(--light2-color);
-  border-radius: 5px;
   padding: 1.5rem 1.5rem;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
   height: 350px;
-}
-
-.card1:hover {
-  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
 }
 
 .card-links {
@@ -414,9 +409,8 @@ img {
   gap: 1rem;
   align-items: center;
   background: var(--light2-color);
-  border-radius: 5px;
   padding: 1.5rem 1.5rem;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
   height: 350px;
 }
 
@@ -430,24 +424,15 @@ img {
   color: var(--secondary-color);
 }
 
-.card2:hover {
-  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
-}
-
 .card3 {
   display: grid;
   grid-template-rows: 1fr;
   gap: 1rem;
   align-items: center;
   background: var(--light2-color);
-  border-radius: 5px;
   padding: 1.5rem 1.5rem;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
   height: 350px;
-}
-
-.card3:hover {
-  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
 }
 
 .card4 {
@@ -457,14 +442,9 @@ img {
   align-items: center;
   grid-column: 2 / span 2;
   background: var(--light2-color);
-  border-radius: 5px;
   padding: 1.5rem 1.5rem;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
   height: 350px;
-}
-
-.card4:hover {
-  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
 }
 
 .git-link .git-header {
