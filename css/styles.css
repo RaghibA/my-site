@@ -172,7 +172,7 @@ img {
 
 .attr-dark {
   display: inline-block;
-  color: var(--primary-color);
+  color: var(--accent2-color);
   font-size: .55rem;
   text-transform: uppercase;
   padding: .4rem .6rem;
@@ -185,16 +185,16 @@ img {
   opacity: .8;
 }
 
-.react { background: rgb(44, 122, 200); }
-.nodejs { background: rgb(36, 194, 63); }
-.express { background: rgb(71, 76, 81); }
-.python { background: rgb(237, 196, 100);}
-.mongodb {background: rgb(74, 119, 5);}
-.angular {background: rgb(159, 27, 27);}
-.flask {background: rgb(188, 101, 205);}
-.rest {background: rgb(215, 120, 41);}
-.matplotlib {background: rgb(64, 144, 151);}
-.sql {background: #fd9af3;}
+.react { background: var(--primary-color); }
+.nodejs { background: var(--primary-color); }
+.express { background: var(--primary-color); }
+.python { background: var(--primary-color);}
+.mongodb {background: var(--primary-color);}
+.angular {background: var(--primary-color);}
+.flask {background: var(--primary-color);}
+.rest {background: var(--primary-color);}
+.matplotlib {background: var(--primary-color);}
+.sql {background: var(--primary-color);}
 
 /* Nav */
 .nav {
