@@ -470,6 +470,12 @@ img {
   grid-column: 1/ span 3;
 }
 
+.git-btn {
+  margin: 0;
+  margin-top: 1rem;
+  align-self: center;
+}
+
 /* Contact */
 #contact {
   background: var(--secondary-color);
