@@ -193,7 +193,7 @@ img {
 .angular {background: rgb(159, 27, 27);}
 .flask {background: rgb(188, 101, 205);}
 .rest {background: rgb(215, 120, 41);}
-.matplotlib {background: rgb(239, 236, 77);}
+.matplotlib {background: rgb(64, 144, 151);}
 .sql {background: #fd9af3;}
 
 /* Nav */
@@ -413,7 +413,7 @@ img {
   grid-template-rows: 1fr;
   gap: 1rem;
   align-items: center;
-  background: var(--primary-color);
+  background: var(--light2-color);
   border-radius: 5px;
   padding: 1.5rem 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -438,7 +438,7 @@ img {
   grid-template-rows: 1fr;
   gap: 1rem;
   align-items: center;
-  background: var(--primary-color);
+  background: var(--light2-color);
   border-radius: 5px;
   padding: 1.5rem 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
