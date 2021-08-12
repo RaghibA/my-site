@@ -459,7 +459,7 @@ img {
 
 /* Contact */
 #contact {
-  background: var(--secondary-color);
+  background: var(--accent2-color);
 }
 
 #contact .contact-container {
