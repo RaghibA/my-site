@@ -158,6 +158,7 @@ img {
 .attr {
   display: inline-block;
   color: var(--light-color);
+  background: var(--primary-color);
   font-size: .55rem;
   text-transform: uppercase;
   padding: .4rem .6rem;
@@ -167,34 +168,8 @@ img {
 }
 
 .attr:hover {
-  opacity: .8;
+  opacity: .95;
 }
-
-.attr-dark {
-  display: inline-block;
-  color: var(--accent2-color);
-  font-size: .55rem;
-  text-transform: uppercase;
-  padding: .4rem .6rem;
-  border-radius: 15px;
-  margin-bottom: .5rem;
-  width: fit-content;
-}
-
-.attr-dark:hover {
-  opacity: .8;
-}
-
-.react { background: var(--primary-color); }
-.nodejs { background: var(--primary-color); }
-.express { background: var(--primary-color); }
-.python { background: var(--primary-color);}
-.mongodb {background: var(--primary-color);}
-.angular {background: var(--primary-color);}
-.flask {background: var(--primary-color);}
-.rest {background: var(--primary-color);}
-.matplotlib {background: var(--primary-color);}
-.sql {background: var(--primary-color);}
 
 /* Nav */
 .nav {
@@ -218,15 +193,29 @@ img {
 
 .links a {
   color: var(--primary-color);
-  padding: 10px 20px;
+  padding: 10px 16px;
   text-decoration: none;
-  border-radius:25px;
+  position: relative;
 }
 
-.links a:hover {
+.links a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--dark-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.links a:hover:before {
+  width: 100%;
+}
+
+.links a:active {
   background: var(--dark-color);
   color: var(--secondary-color);
-  transition: ease .3s;
 }
 
 .current {
