@@ -16,18 +16,18 @@
   <div id="top"></div>
 
   <!-- Header -->
-  <header class="splash">
-    <div class="nav">
+  <header id="hero" class="splash">
+    <div id="navbar" class="nav">
       <div class="name">
         <a href="#top" target="_blank" class="nav-name">
           <span class="text-primary">~/Raghib</span>
-          <i class="blink-icon far fa-window-minimize"></i>
+          <i class="text-primary blink-icon far fa-window-minimize"></i>
         </a>
       </div>
-      <div class="links">
-        <a onclick="makeCurrent('2')" id="2" href="#about" class="about nav-menu">About</a>
-        <a onclick="makeCurrent('3')" id="3" href="#projects" class="projects nav-menu">Projects</a>
-        <a onclick="makeCurrent('4')" id="4" href="#contact" class="contact nav-menu">Contact</a>
+      <div id='nav-links' class="links">
+        <a id="abt-link" href="#about" class="about nav-menu">About</a>
+        <a id="proj-link" href="#projects" class="projects nav-menu">Projects</a>
+        <a id="cont-link" href="#contact" class="contact nav-menu">Contact</a>
       </div>
     </div>
     <div class="content text-primary">
@@ -51,7 +51,7 @@
       <div class="about-body text-primary">
         <p class="about-body-txt">
           I'm a full-stack software developer located in the Dallas/Fort Worth area.
-           I create responsive front-end user interfaces and reliable back-end services.
+          I create responsive front-end user interfaces and reliable back-end services.
         </p>
       </div>
 
@@ -166,7 +166,8 @@
             <div class="attr">MongoDB</div>
           </div>
           <h1 class="proj-heading-txt text-primary">URLTree</h1>
-          <p class="text-primary">Full-Stack web application providing users with an online platform to create a URL directory.</p>
+          <p class="text-primary">Full-Stack web application providing users with an online platform to create a URL
+            directory.</p>
           <p class="text-primary">Back-end REST API developed in Flask. Front-end UI implemented using React.</p>
           <div class="card-links">
             <a href="https://github.com/RaghibA" target="_blank" class="btn">View
@@ -190,14 +191,14 @@
             to their online deck.</p>
           <p class="text-accent">Back-end REST API implemented using Node.js, Express.js, and MongoDB. SPA front-end UI
             developed on Angular.</p>
-            <div class="card-links">
-              <a href="https://github.com/RaghibA/Pokemon-TCG-Frontend" target="_blank" class="btn">View
-                <span><i class="far fa-arrow-alt-circle-right"></i></span>
-              </a>
-              <a href="https://github.com/RaghibA/Pokemon-TCG-API" target="_blank" class="btn-accent">API
-                <span><i class="fas fa-cloud-download-alt"></i></span>
-              </a>
-            </div>
+          <div class="card-links">
+            <a href="https://github.com/RaghibA/Pokemon-TCG-Frontend" target="_blank" class="btn">View
+              <span><i class="far fa-arrow-alt-circle-right"></i></span>
+            </a>
+            <a href="https://github.com/RaghibA/Pokemon-TCG-API" target="_blank" class="btn-accent">API
+              <span><i class="fas fa-cloud-download-alt"></i></span>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -248,12 +249,14 @@
 
         $('html, body').animate(
           {
-            scrollTop: $(hash).offset().top - 100,
+            scrollTop: $(hash).offset().top - 50,
           }, 400
         );
       }
     })
   </script>
+
+  <script src="./js/navScroll.js"></script>
 
 </body>
 
