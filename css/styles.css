@@ -150,9 +150,9 @@ img {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 80px; 
-  padding-top: 2px; 
-  border-bottom: 2px solid var(--primary-color); 
+  width: 80px;
+  padding-top: 2px;
+  border-bottom: 2px solid var(--primary-color);
 }
 
 .attr {
@@ -195,6 +195,10 @@ img {
   text-decoration: none;
   color: var(--light-color);
   font-size: 1.5rem;
+}
+
+#nav-links {
+  display: flex;
 }
 
 .links a {
@@ -329,9 +333,9 @@ img {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 50%; 
-  padding-top: 2px; 
-  border-bottom: 1px solid var(--primary-color); 
+  width: 50%;
+  padding-top: 2px;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .skill-icon {
