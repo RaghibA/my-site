@@ -385,15 +385,28 @@ img {
 }
 
 /* Cards */
+.proj-heading-txt {
+  text-align: center;
+}
+
+.attr-sm{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  background: var(--light2-color);
+  padding: 1.5rem 1.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
 .card1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   align-items: center;
   grid-column: 1 / span 2;
-  background: var(--light2-color);
-  padding: 1.5rem 1.5rem;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
   height: 350px;
 }
 
@@ -406,9 +419,6 @@ img {
   grid-template-rows: 1fr;
   gap: 1rem;
   align-items: center;
-  background: var(--light2-color);
-  padding: 1.5rem 1.5rem;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
   height: 350px;
 }
 
@@ -427,9 +437,6 @@ img {
   grid-template-rows: 1fr;
   gap: 1rem;
   align-items: center;
-  background: var(--light2-color);
-  padding: 1.5rem 1.5rem;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
   height: 350px;
 }
 
@@ -439,9 +446,23 @@ img {
   gap: 1rem;
   align-items: center;
   grid-column: 2 / span 2;
-  background: var(--light2-color);
-  padding: 1.5rem 1.5rem;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+  height: 350px;
+}
+
+.card5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  grid-column: 1 / span 2;
+  height: 350px;
+}
+
+.card6 {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  align-items: center;
   height: 350px;
 }
 
