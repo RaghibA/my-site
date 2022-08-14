@@ -125,6 +125,9 @@
 
 .card-links {
   margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .card2 {

@@ -8,7 +8,8 @@
   --light2-color: #ececec;
   --dark-color: #555;
   --accent-color: #232832;
-  --accent2-color: #c4ab9a;
+  /* --accent2-color: #e3e3e3; */
+  --accent2-color: #D1BEB0;
   --max-width: 1000px;
 }
 
@@ -412,6 +413,9 @@ img {
 
 .card-links {
   margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .card2 {
